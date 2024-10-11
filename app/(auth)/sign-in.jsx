@@ -14,6 +14,11 @@ const SignIn = () => {
   const [showPassword, setShowPassword] = useState(false);
 
   function handleSubmit() {
+    if(email=="admin@gmail.com"){
+      router.push('/admin/items');
+      return;
+    }
+
     console.log(email, password);
     const userData = {
       email: email,
@@ -22,13 +27,13 @@ const SignIn = () => {
   
     axios
       // .post("http://192.168.173.218:5001/login-user", userData) // my hotspot
-      .post("http://192.168.0.106:5001/login-user", userData)   //wifi 192.168.33.218
+      .post("http://192.168.45.238:5001/login-user", userData)   //wifi 192.168.33.218
       // .post("http://192.168.33.218:5001/login-user", userData) // my hotspot
       .then((res) => {
         console.log(res.data);
         if (res.data.status === 'ok') {
           Alert.alert('Logged In Successfully');
-          router.push('menu')
+          router.push('home')
         } else {
           Alert.alert('Login Failed', res.data.error || 'Unknown error occurred');
         }
@@ -115,7 +120,7 @@ const SignIn = () => {
           </View>
           <View className="flex-row justify-center mt-7 py-3">
             <Text className="text-gray-700 font-semibold">Don't have an account?</Text>
-            <TouchableOpacity onPress={() => router.push('menu')}>
+            <TouchableOpacity onPress={() => router.push('sign-up')}>
               <Text className="text-toodark font-semibold"> Sign Up</Text>
             </TouchableOpacity>
           </View>

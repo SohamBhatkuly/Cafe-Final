@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { View, Text, TouchableOpacity, Image, TextInput, Modal } from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
 import { Feather } from '@expo/vector-icons'; // Icon library
 import { styled } from 'nativewind'; // Import NativeWind
+import { ArrowLeftIcon } from 'react-native-heroicons/solid'
+import { useNavigation, router } from 'expo-router'
 
 const StyledView = styled(View);
 const StyledText = styled(Text);
@@ -11,6 +13,7 @@ const StyledImage = styled(Image);
 const StyledTextInput = styled(TextInput);
 
 const ProfileScreen = () => {
+  const navigation = useNavigation();
   const [name, setName] = useState('');
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
@@ -74,11 +77,14 @@ const ProfileScreen = () => {
   };
 
   return (
-    <StyledView className="flex-1 bg-black p-4">
+    <StyledView className="flex-1 bg-blackk p-4">
       {/* Back Button */}
-      <StyledTouchableOpacity className="p-2 bg-[#D2A86E] w-10 h-10 rounded-lg justify-center items-center ">
-        <Feather name="arrow-left" size={24} color="black" />
-      </StyledTouchableOpacity>
+      <View className="flex-row justify-start">
+        <TouchableOpacity onPress={() => navigation.goBack()}
+          className="bg-main p-2 rounded-tr-2xl rounded-bl-2xl ml-4 mt-2">
+          <ArrowLeftIcon size={20} color="black"/>
+        </TouchableOpacity>
+      </View>
 
       {/* Profile Picture */}
       <StyledView className="justify-center items-center mt-6">
@@ -108,7 +114,7 @@ const ProfileScreen = () => {
             placeholderTextColor="#555"
             className="text-black flex-1"
           />
-          <Feather name="edit-2" size={20} color="black" />
+          {/* <Feather name="edit-2" size={20} color="black" /> */}
         </StyledView>
 
         {/* Username Field */}
@@ -121,7 +127,7 @@ const ProfileScreen = () => {
             placeholderTextColor="#555"
             className="text-black flex-1"
           />
-          <Feather name="edit-2" size={20} color="black" />
+          {/* <Feather name="edit-2" size={20} color="black" /> */}
         </StyledView>
 
         {/* Email Field */}
@@ -135,7 +141,7 @@ const ProfileScreen = () => {
             keyboardType="email-address"
             className="text-black flex-1"
           />
-          <Feather name="edit-2" size={20} color="black" />
+          {/* <Feather name="edit-2" size={20} color="black" /> */}
         </StyledView>
 
         {/* Phone No Field */}
@@ -149,7 +155,7 @@ const ProfileScreen = () => {
             keyboardType="phone-pad"
             className="text-black flex-1"
           />
-          <Feather name="edit-2" size={20} color="black" />
+          {/* <Feather name="edit-2" size={20} color="black" /> */}
         </StyledView>
       </StyledView>
 

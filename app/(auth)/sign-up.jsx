@@ -35,12 +35,12 @@ const SignUp = () => {
 
     axios
       // .post("http://192.168.173.218:5001/register", userData) // my hotspot
-      .post("http://192.168.0.106:5001/register", userData)   //wifi
+      .post("http://192.168.45.238:5001/register", userData)   //wifi
       // .post("http://192.168.33.218:5001/register", userData) // my hotspot
       .then((res) => {
         console.log('Response:', res.data);
         Alert.alert('Signed In Successfully');
-        router.push('menu')
+        router.push('home')
       })
       .catch(err => {
         if (err.response && err.response.status === 'ok') {
@@ -193,7 +193,7 @@ const SignUp = () => {
             </View>
             <View className="flex-row justify-center mt-7 pb-6">
               <Text className="text-gray-700 font-semibold">Already have an account?</Text>
-              <TouchableOpacity onPress={() => router.push('menu')}>
+              <TouchableOpacity onPress={() => router.push('sign-in')}>
                   <Text className="text-toodark font-semibold"> Login</Text>
               </TouchableOpacity>
             </View>
