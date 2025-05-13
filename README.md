@@ -1,8 +1,8 @@
-### Kafe Koffee Knight
+# Kafe Koffee Knight
 
 A complete mobile application for cafes that allows customers to browse menu items, place orders, and make payments — all from their device. It also includes admin tools for tracking orders and updating the menu. Designed for small cafes looking to streamline ordering and enhance the customer experience.
 
-## 🚀 Features
+### 🚀 Features
 
 ### 🧑‍🍳 For Customers:
 - Browse and search food & drink items
