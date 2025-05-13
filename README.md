@@ -29,7 +29,7 @@ A complete mobile application for cafes that allows customers to browse menu ite
 
 ##Screenshots
 
-<table align="center">
+<table align="center" width="100">
   <tr>
     <td align="center"><img src="./Cafeteria/Screenshots/signup.png" height="400" /></td>
     <td align="center"><img src="./Cafeteria/Screenshots/signin.png" height="400" /></td>
@@ -53,7 +53,7 @@ A complete mobile application for cafes that allows customers to browse menu ite
   <tr>
     <td align="center"><img src="./Cafeteria/Screenshots/orderhistory.png" height="400" /></td>
     <td align="center"><img src="./Cafeteria/Screenshots/ordertracking.png" height="400" /></td>
-    <td align="center"></td>
+    <td align="center"><img src="./Cafeteria/Screenshots/upload.png" height="400" /></td>
   </tr>
 </table>
 
