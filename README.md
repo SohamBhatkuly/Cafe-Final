@@ -30,8 +30,8 @@ A complete mobile application for cafes that allows customers to browse menu ite
 ##Screenshots
 
 <p align="center">
-<img src="./Cafeteria/Screenshots/signup.png" width="200" height="300"/>
-<img src="./Cafeteria/Screenshots/signin.png" width="200" height="300"/>
+<img src="./Cafeteria/Screenshots/signup.png" width="200" height="400"/>
+<img src="./Cafeteria/Screenshots/signin.png" width="200" height="400"/>
 </p>
 
 <img src="./Cafeteria/Screenshots/home.png" width="200" />
