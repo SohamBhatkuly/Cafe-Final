@@ -29,21 +29,32 @@ A complete mobile application for cafes that allows customers to browse menu ite
 
 ##Screenshots
 
-<p align="center">
-<img src="./Cafeteria/Screenshots/signup.png" width="200" height="400"/>
-<img src="./Cafeteria/Screenshots/signin.png" width="200" height="400"/>
-</p>
+<table align="center">
+  <tr>
+    <td align="center"><img src="./Cafeteria/Screenshots/signup.png" height="400" /></td>
+    <td align="center"><img src="./Cafeteria/Screenshots/signin.png" height="400" /></td>
+    <td align="center"><img src="./Cafeteria/Screenshots/home.png" height="400" /></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./Cafeteria/Screenshots/navigation.png" height="400" /></td>
+    <td align="center"><img src="./Cafeteria/Screenshots/profile.png" height="400" /></td>
+    <td align="center"><img src="./Cafeteria/Screenshots/menu.png" height="400" /></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./Cafeteria/Screenshots/order.png" height="400" /></td>
+    <td align="center"><img src="./Cafeteria/Screenshots/bill.png" height="400" /></td>
+    <td align="center"><img src="./Cafeteria/Screenshots/payment.png" height="400" /></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./Cafeteria/Screenshots/review.png" height="400" /></td>
+    <td align="center"><img src="./Cafeteria/Screenshots/gallery.png" height="400" /></td>
+    <td align="center"><img src="./Cafeteria/Screenshots/admin.png" height="400" /></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./Cafeteria/Screenshots/orderhistory.png" height="400" /></td>
+    <td align="center"><img src="./Cafeteria/Screenshots/ordertracking.png" height="400" /></td>
+    <td align="center"></td>
+  </tr>
+</table>
 
-<img src="./Cafeteria/Screenshots/home.png" width="200" />
-<img src="./Cafeteria/Screenshots/navigation.png" width="200" />
-<img src="./Cafeteria/Screenshots/profile.png" width="200" />
-<img src="./Cafeteria/Screenshots/menu.png" width="200" />
-<img src="./Cafeteria/Screenshots/order.png" width="200" />
-<img src="./Cafeteria/Screenshots/bill.png" width="200" />
-<img src="./Cafeteria/Screenshots/payment.png" width="200" />
-<img src="./Cafeteria/Screenshots/review.png" width="200" />
-<img src="./Cafeteria/Screenshots/gallery.png" width="200" />
-<img src="./Cafeteria/Screenshots/admin.png" width="200" />
-<img src="./Cafeteria/Screenshots/orderhistory.png" width="200" />
-<img src="./Cafeteria/Screenshots/ordertracking.png" width="200" />
 "
